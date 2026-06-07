@@ -1,0 +1,22 @@
+# Build artifacts
+build/
+build_onedir/
+dist/
+*.spec
+*.exe
+wicked_respec_error.log
+__pycache__/
+*.pyc
+
+# Release archives
+*.zip
+*.tar.gz
+
+# Virtual envs
+.venv/
+venv/
+
+# Personal save data - never commit a character's save
+tests/fixtures/*.cerimal*
+*.cerimal
+*.cerimal.bak*
